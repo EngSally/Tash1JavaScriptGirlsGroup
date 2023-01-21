@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+       <style>
+            .fill {
+                     display: flex;
+                     justify-content: center;
+                     align-items: center;
+                     overflow: hidden;
+                     border-radius:9%;
+                    }
+            .fill img {
+                         flex-shrink: 0;
+                         min-width: 100%;
+                        min-height: 100%;
+                        border-radius:20%;
+                        }
+
+                        .fill div:hover,
+                         .fill div:focus{
+                             width:500px;
+  
+                                }
+                                
+                                
+
+
+
+                               
+       </style>
+    </head>
+    <body>
+       
+           
+<div class="Parent" style="width: 100%; float:left; display:block ; height:100% ">
+
+        <div class="fill" style="width: 150px; float:left; height:600px;  margin:1px" onmouseover="functionOver(this);"     onmouseleave="functionleave(this);">
+           
+            <img src="Image/1.jpg" alt="Nature"  style="border-radius:10%" >
+        </div>
+        <div class="fill" style="width:150px; float:left; height:600px; margin:1px" onmouseover="functionOver(this);"     onmouseleave="functionleave(this);">
+               
+                <img src="Image/2.jpg" alt="Nature" >
+           
+       </div>
+       <div class="fill" style="width: 150px; float:left; height:600px; margin:1px"  onmouseover="functionOver(this);"     onmouseleave="functionleave(this);">
+       
+        <img src="Image/3.jpg" alt="Nature"  >
+    </div>
+    <div class="fill" style="width: 150px; float:left; height:600px;  margin:1px" onmouseover="functionOver(this);"     onmouseleave="functionleave(this);">
+          
+            <img src="Image/4.jpg" alt="Nature" >
+       
+   </div>
+   <div class="fill" style="width: 150px; float:left; height:600px;  margin:1px"  onmouseover="functionOver(this);"     onmouseleave="functionleave(this);">
+    
+     <img src="Image/5.jpg" alt="Nature" >
+
+</div>
+<div class="fill" style="width: 150px; float:left; height:600px;  margin:1px"  onmouseover="functionOver(this);"     onmouseleave="functionleave(this);">
+    
+     <img src="Image/6.jpg" alt="Nature" >
+
+</div>
+
+</div>
+<script>
+    function functionOver(currentDiv) {
+        currentDiv.style.width="700px";
+    }
+
+    function functionleave(currentDiv) {
+        currentDiv.style.width="150px";
+    }
+    </script>
+
+    </body>
+</html>
